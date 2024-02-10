@@ -7,10 +7,11 @@
     <body>
         <h1>Миссия Колонизация Марса</h1>
 
-     {% if 'врач' in prof or 'строитель' in prof %}
-        <div><img src="/static/img/sci.png"></div>
+     {% if 'инженер' in prof or 'строитель' in prof %}
+        <div><img src="/static/img/ing.png"></div>
+
       {% else %}
-       <div><img src="/static/img/ing.png"></div>
+       <div><img src="/static/img/sci.png"></div>
      {% endif %}
     </body>
 </html>
